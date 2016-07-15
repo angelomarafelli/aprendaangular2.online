@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br" lang="pt-br">
 
   {% include head.html %}
 
   <body>
     {% if page.edit_link %}
     <div id="improve">
-      <a href="{{page.edit_link}}">Suggest improvements</a>
+      <a href="{{page.edit_link}}">Editar essa página</a>
     </div>
     {% endif %}
 
@@ -18,8 +18,8 @@
         <div class="nine columns">
           <h3>{{page.title}}</h3>
           {% if page.tweet %}
-          <a class="twitter-share-button" href="https://twitter.com/share" data-text="{{page.tweet}}" data-via="ionicframework" data-related="ionicframework">
-            Tweet
+          <a class="twitter-share-button" href="https://twitter.com/share" data-text="{{page.tweet}}" data-via="joselitojunior1" data-related="joselitojunior1">
+            Tuitar isso
           </a>
           {% endif %}
           {{ content }}
