@@ -4,6 +4,7 @@ title: Aprenda Angular 2
 ---
 
 ![Angular2](https://angular.io/resources/images/logos/standard/shield-large.png)
+<iframe src="https://ghbtns.com/github-btn.html?user=joselitojunior1&repo=aprenda-angular2&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
 
 O Angular 2 será a próxima versão do framework criado pela Google. Ele é utilizado massivamente para apicações MV*, permitindo a criação de frontends complexos e aplicações parrudas que rodam direto do navegador (ou seja, praticamente qualquer coisa).
 
@@ -13,4 +14,4 @@ Nós esperamos que esse simples site, com tutoriais extremamente simples, permit
 
 Esse site é mantido por [Joselito Júnior](http://github.com/joselitojunior1) e [Wilson Mendes](http://gihub.com/willmendesneto). Ele é baseado em uma tradução-livre do [Learn Angular 2](http://learnangular2.com), desenvolvido originalmente pela equipe do [Ionic Framework](http://ionicframework.com/).
 
-<iframe src="https://ghbtns.com/github-btn.html?user=joselitojunior1&repo=aprenda-angular2&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+
