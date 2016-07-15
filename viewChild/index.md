@@ -2,19 +2,19 @@
 layout: default
 title: ViewChild
 edit_link: https://github.com/driftyco/learn-angular2/edit/gh-pages/viewChild/index.md
-tweet: "Access child components in Angular 2"
+tweet: "Acesso entre componentes no Angular 2"
 ---
 
 
 _Updated April 28, 2016_
 
-Since all components in Angular 2 have classes, you might want to call methods on these classes. This requires access to the component.
+Como todos os componentes em Angular 2 possuem classes, você pode precisar chamar métodos destas classes. Isto requer acesso ao componente.
 
 #### `@ViewChild`
 
-To get access to a component and its methods, we can use the `@ViewChild` annotation.
+Para ter acesso a um componente e seus métodos, podemos usar a anotação `@ViewChild`.
 
-For example, our `<user-profile>` component can have a method called `sendData()`.
+Por exemplo, o nosso componente `<user-profile>` pode ter um método chamado `sendData()`.
 
 
 ```javascript
@@ -32,7 +32,7 @@ export class UserProfile {
 {% endraw %}
 ```
 
-When use the `user-profile` on our main page, we can reference the class and then assign it to a local property
+Quando usarmos o `user-profile` em nossa página principal, faremos referência a classe e, em seguida, atribuí-la a uma propriedade local.
 
 ```javascript
 {% raw %}
@@ -57,9 +57,8 @@ export class MasterPage {
 {% endraw %}
 ```
 
-
-We can also do the same thing with a local variable.
-Instead of trying to load the particular class, we can do:
+Nós também podemos fazer a mesma coisa com uma variável local.
+Ao invés de carregarmos a classe particular, podemos usar outro tipo de abordagem:
 
 ```javascript
 {% raw %}
