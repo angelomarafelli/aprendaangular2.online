@@ -1,20 +1,20 @@
 ---
 layout: default
-title: Components
+title: Componentes
 edit_link: https://github.com/driftyco/learn-angular2/edit/gh-pages/components/index.md
-tweet: "How to use components in Angular 2"
+tweet: "Como utilizar componentes usando Angular 2"
 ---
 
 _Updated November 16, 2015_
 
-In Angular 2, Components are the main way we build and specify elements and logic on the page.
+No Angular 2, Componentes are a principal maneira de criar e espeficicar elementos e lógica na página.
 
-In Angular 1, we achieved this through directives, controllers, and scope. In Angular 2, all those concepts
-are combined into Components.
+usando Angular 1, nós conseguimos isso através de directivas, controllers e $scope. No angular 2, todos esses conceitos
+são combinados em componentes.
 
-### A simple component
+### Criando um componente
 
-Here's a simple Component that renders our name, and a button that triggers a method to print our name to the console:
+Aqui está um componente simples que renderiza o valor do atributo `name`, e um botão que aciona um método para imprimir o nosso nome para o console:
 
 ```javascript
 {% raw %}
@@ -35,5 +35,4 @@ export class MyComponent {
 {% endraw %}
 ```
 
-When we use the `<my-component></my-component>` tag in our HTML, this component will be created,
-our constructor called, and rendered.
+Quando usamos a tag `<my-component></my-componente>` em nosso HTML, este componente será criado, o nosso construtor chamado e renderizado no DOM.
