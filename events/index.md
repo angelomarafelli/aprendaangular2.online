@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Angular 2 Events
+title: Eventos no Angular 2
 edit_link: https://github.com/driftyco/learn-angular2/edit/gh-pages/events/index.md
-tweet: "Understanding events in Angular 2"
+tweet: "Entendendo eventos no Angular 2"
 ---
 
-Events in Angular 2 use the parentheses notation in templates, and trigger methods in a component's class. For example, assume we have this component class:
+Eventos no Angular 2 usam a notação de parênteses nos modelos e métodos de gatilho na classe de um componente. Por exemplo, suponha que temos esta classe de componente:
 
 ```javascript
 @Component(...)
@@ -15,27 +15,27 @@ class MyComponent {
 }
 ```
 
-And this template:
+E este template:
 
 ```html
 <button (click)="clicked()">Click</button>
 ```
 
-Our `clicked()` method will be called when the button is clicked.
+Nosso método `clicked()` vai ser chamado quando o botão for clicado.
 
-## Delegation
+## Delegando eventos
 
-Events in Angular 2 behave like normal DOM events. They can bubble up and propagate down. Nothing special to do here!
+Eventos no Angular 2 possuem o mesmo comportamento que eventos DOM, possuindo bubbling e propagate. Nada de especial para fazer aqui!
 
-## Event object
+## O object event
 
-To capture the event object, pass `$event` as a parameter in the event callback from the template:
+Para capturar o evento, basta passar `$event` como atributo no método que está no template:mplate:
 
 ```html
 <button (click)="clicked($event)"></button>
 ```
 
-This is an easy way to modify the event, such as calling `preventDefault`:
+Perceba como é fácil modificar o event, chamando o método `preventDefault`, por exemplo:
 
 ```javascript
 @Component(...)
