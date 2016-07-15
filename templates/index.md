@@ -2,14 +2,14 @@
 layout: default
 title: Templates
 edit_link: https://github.com/driftyco/learn-angular2/edit/gh-pages/templates/index.md
-tweet: "All about Templates in Angular 2"
+tweet: "Tudo sobre Templates em aplicações Angular 2"
 ---
 
-Templates are very similar to templates in Angular 1, though there are many small syntactical changes that make it more clear what is happening.
+Os modelos de template são muito semelhantes aos utilizados no Angular 1, apesar de existirem algumas mudanças sintáticas que tornam mais claro o que está acontecendo.
 
-## A simple template
+## Exemplo de template
 
-Let's start with a very simple template that shows our name and our favorite thing:
+Vamos começar com um template simples que renderiza o valor dos atributos `name` e `things`:
 
 ```html
 {% raw %}
@@ -19,9 +19,9 @@ Let's start with a very simple template that shows our name and our favorite thi
 {% endraw %}
 ```
 
-## `{}`: Rendering
+## `{}`: Renderizando valores
 
-To render a value, we can use the standard double-curly syntax:
+Para renderizar um valor, we can usar a sintaxe de `double-curly`, já utilizada pelo Angular 1:
 
 ```html
 {% raw %}
@@ -29,20 +29,19 @@ My name is {{name}}
 {% endraw %}
 ```
 
-Pipes, previously known as "Filters," transform a value into a new value, like localizing a string or converting a floating point value into a currency representation:
+Pipes, previamente conhecido por serem utilizados em "Filtros" no template, transformam um valor em um novo valor, como por exemplo transformar uma string em um valor monetário:
 
-## `[]`: Binding properties
+## `[]`: Criando binding de propriedades
 
-To resolve and bind a variable to a component, use the `[]` syntax. If we have `this.currentVolume` in our component, we will pass this through
-to our component and the values will stay in sync:
+Para criar um bind de uma variável a um componente, utilize a sintaxe `[]`. Se tivermos `this.currentVolume` em nosso componente, vamos vincular este atributo para o nosso componente e os valores vão ser sincronizados:
 
 ```html
 <video-control [volume]="currentVolume"></video-control>
 ```
 
-## `()`: Handling events
+## `()`: Manipulando eventos events
 
-To listen for an event on a component, we use the `()` syntax
+Criamos um listener no template de um componente usando a sintaxe `()`
 
 ```html
 <my-component (click)="onClick($event)"></my-component>
@@ -50,22 +49,22 @@ To listen for an event on a component, we use the `()` syntax
 
 ## `[()]`: Two-way data binding
 
-To keep a binding up to date given user input and other events, use the `[()]` syntax. Think of it as a combination of handling an event and binding a property:
+Para manter o binding criado em um campo `input` e outros eventos, use a sintaxe `[()]`. Pense nisso como uma combinação de manipulação de um evento e binding da propriedade:
 
 ```html
 <input [(ngModel)]="myName">
 ```
 
-The `this.myName` value of your component will stay in sync with the input value.
+O valor do atributo `this.myName` do seu componente está sincronizado com o valor do campo `input`.
 
-## `*`: The asterisk
+## `*`: O asterisco
 
-`*` indicates that this directive treats this component as a template and will not draw it as-is. For example, `ngFor` takes our `<my-component>` and stamps it out for each `item` in `items`,
-but it never renders our initial `<my-component>` since it's a template:
+`*` indica que esta directiva gerencia este componente como um template e tratará a sua renderização. Por exemplo, `ngFor` utilizado em nosso `<my-componente>` e renderiza o valor do loop de `item` em `itens`,
+mas nunca retorna o nossa inicial `<my-componente>` uma vez que é um template:
 
 ```html
 <my-component *ngFor="#item of items">
 </my-component>
 ```
 
-Other similar directives that work on templates rather than rendered components are `*ngIf` and `*ngSwitch`.
+Outras directivas que trabalham em templates de maneira semelhante são `*ngIf` e `*ngSwitch`.
