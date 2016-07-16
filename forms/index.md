@@ -2,19 +2,19 @@
 layout: default
 title: Forms
 edit_link: https://github.com/driftyco/learn-angular2/edit/gh-pages/forms/index.md
-tweet: "Build great forms in Angular 2"
+tweet: "Criando poderosos formulários com Angular 2"
 ---
 
-Forms are the cornerstone of any real app. In Angular 2, forms have changed quite a bit from their v1 counterpart.
+Os formulários são fundamentais em qualquer aplicativo. No Angular 2, formulários mudaram um pouco desde a versão 1 do framework.
 
-Where we used to use `ngModel` and map to our internal data model, in Angular 2 we more explicitly build forms and form controls.
+Onde costumávamos usar `ngModel` e mapear para o nosso modelo de dados internamente, no Angular 2 construímos formulários e controllers de maneira mais explícita.
 
-While it feels like more code to write, in practice it's easier to reason about than with v1, and we no longer
-have to deal with frustrating ngModel and scope data problems.
+Se por um lado se tem mais código para escrever, na prática, é mais fácil raciocinar sobre que com v1, e não temos mais
+têm de lidar com problemas ngModel e $scope que eram um pouco frustrantes.
 
-## Simple Form
+## Exemplo de Formulário simples
 
-Let's start with a simple login form in HTML with Angular 2:
+Vamos começar com um simples formulário de login em HTML com Angular 2:
 
 ```html
 <form [ngFormModel]="loginForm" (submit)="doLogin($event)">
@@ -24,7 +24,7 @@ Let's start with a simple login form in HTML with Angular 2:
 </form>
 ```
 
-And the corresponding component JS:
+E seu correspondente componente JS:
 
 ```javascript
 import { Component } from '@angular/core';
@@ -49,16 +49,15 @@ export class LoginPage {
 
 ```
 
-When we run this, we are shown a simple login form with email and password:
+Quando executamos isso, nos é mostrado um simples formulário de login com e-mail e senha:
 
 ![ex](ex1.png)
 
 ## FormBuilder
 
-The FormBuilder from the example above makes it easy for us to specify form controls and the various
-validators we might want to apply to certain controls.
+O FormBuilder do exemplo acima faz com que seja fácil especificar comportamentos do formulário e validadores que podemos aplicar.
 
-In the example above, we are creating two inputs, an `email` and `password` field:
+No exemplo acima, estamos criando dois inputs, os campos `email` e `password`:
 
 ```javascript
 this.loginForm = fb.group({
@@ -69,9 +68,9 @@ this.loginForm = fb.group({
 
 ## ControlGroup
 
-The `FormBuilder` creates instances of `ControlGroup`, which we refer to as a `form`.
+O `FormBuilder` cria instâncias do `ControlGroup`, que possuem referências ao `form`.
 
-Instead of using the `FormBuilder`, we could also construct the `ControlGroup` manually:
+Em vez de usar os `FormBuilder`, nós também podemos construir o `ControlGroup` manualmente:
 
 ```javascript
 this.loginForm = new ControlGroup({
@@ -80,21 +79,21 @@ this.loginForm = new ControlGroup({
 });
 ```
 
-In practice though, the `FormBuilder` is what we will use to quickly create forms.
+Na prática, usaremos o `FormBuilder` para criar formulários de forma rápida.
 
 ## Form Directives
 
-You'll notice the lack of `ngModel` anywhere in our form. Instead, we have the `ngControl` decorators that map certain inputs to our control objects:
+Você vai notar a falta do `ngModel` no formulário. Em vez disso, temos os decoradotors do `ngControl` que mapeiam os inputs para os nossos objetos que controlam o formulário:
 
 ```html
   <input ngControl="email" type="email" placeholder="Your email">
 ```
 
-This "binds" the email input to the instance of our `email` control.
+Este "binds" no input do campo e-mail para a instância do nosso atributo `email` do formulário.
 
 ## Custom validators
 
-We can build custom form validators as a simple function:
+Nós podemos construir formulário personalizado validadores como uma função simples:
 
 ```javascript
 function containsMagicWord(c: Control) {
@@ -116,7 +115,7 @@ this.loginForm = fb.group({
 
 ## Handling form values
 
-We can easily get the simple Javascript object value of our form, or the value of an individual control:
+Podemos facilmente pegar o valor de um objeto Javascript do nosso formulário, ou o valor de um controlador de formulário individualmente:
 
 ```javascript
 doLogin(event) {
