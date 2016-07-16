@@ -1,20 +1,21 @@
 ---
 layout: default
-title: App Lifecycle
+title: Lifecycle de uma aplicação Angular 2
 edit_link: https://github.com/driftyco/learn-angular2/edit/gh-pages/lifecycle/index.md
-tweet: "Lifecycle of an Angular 2 App"
+tweet: "Lifecycle de uma aplicação Angular 2"
 ---
 
 _Updated November 16, 2015_
 
-Angular apps go through a multi-stage bootstrap and lifecycle process, and we can
-respond to various events as our app starts, runs, and creates/destroys components.
+Aplicações Angular passam por um processo várias etapas desde o seu bootstrap e ciclo de vida, podendo
+responder a vários eventos como o quando o aplicativo é iniciado, executado e quando se cria/destrói componentes.
 
 ## Bootstrap
 
-Angular 2 apps (currently) need to be bootstrapped using the root component for the app.
+O Angulares 2 (atualmente) precisa ser inicializado usando o componente de raiz para o aplicativo.
 
-In your main JS file for our app, we put this:
+No arquivo JS principal da nossa aplicação, vamos colocar isso:
+
 
 ```javascript
 {% raw %}
@@ -37,16 +38,17 @@ bootstrap(MyApp)
 {% endraw %}
 ```
 
-This component is where you can put application-level code and configuration, and its template
-is where the whole app component chain gets created.
+O componente `my-app` inicializa a nossa aplicação em um nível configurável, e seu modelo
+é o lugar onde todos os nossos componentes são criados.
+nt chain gets created.
 
-## Component Init
+## Inicializando o nosso Componente
 
-When a component is created, its constructor is called. This is where we initialize state
-for our component, but if we rely on properties or data from child components, we need
-to wait for our child components to initialize first.
+Quando um componente é criado, seu construtor é chamado. Isto acontece quando inicializamos algum estados
+para o nosso componente, mas se baseado em algumas propriedades ou dados de componentes filhos, precisamos
+esperar pelos componentes filhos para que o componente inicialize pela primeira vez.
 
-To do this, we can handle the `ngOnInit` lifecycle event. Optionally, we could call `setTimeout` in our constructor for a similar effect:
+Para fazer isso, nós podemos manipular o evento ciclo de vida utilizando o método `ngOnInit`. Existe a opção de utilizar `setTimeout` em nosso construtor para um efeito semelhante:
 
 ```javascript
 import {Component, bootstrap} from 'angular2/angular2';
@@ -79,10 +81,10 @@ class StreetMap {
 }
 ```
 
-## Component Lifecycle
+## Ciclo de vida de um componente
 
-Like `ngOnInit`, we can track several events through the lifecycle of a component. For a full
-list, see the official Angular 2 [Lifecyle Hooks](https://angular.io/docs/ts/latest/guide/lifecycle-hooks.html) docs.
+Como `ngOnInit`, podemos utilizar e rastrear vários eventos através do ciclo de vida de um componente. Para uma
+lista completa, consulte a [seção "Lifecyle Hooks" na documentação oficial do Angular 2](https://angular.io/docs/ts/latest/guide/lifecycle-hooks.html).
 
 ```javascript
 // Annotation section
