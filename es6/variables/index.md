@@ -1,40 +1,39 @@
 ---
 layout: default
-title: ES6 Variables
-edit_link: https://github.com/driftyco/learn-angular2/edit/gh-pages/es6/variables/index.md
-tweet: "Understanding let and var in ES6"
+title: Variáveis no ES6/7
+edit_link: https://github.com/joselitojunior1/aprenda-angular2/edit/gh-pages/es6/variables/index.md
+tweet: "Entendendo as variáveis no ES6/7"
 ---
 
-In ES6, we have a new way of specifying variables: `let`
+A partir do ES6, nós temos um novo jeito de inicializar variáveis, diga olá ao: `let`
 
 ## Var
 
-Before ES6, we only had `var` which would create a variable scoped to the nearest function.
+Antes do ES6, nós só tinhamos `var`, que nos possibilitava criar uma variável no escopo da função mais próxima.
 
-This was problematic because variables would leak into the rest of the function, especially when used with for loops.
+Isso era um problema pois o valor variáveis ficava disponível para toda a função, mesmo quando eram utilizadas apenas num escopo mais interno.
 
-Take this ES5 example:
+Veja esse exemplo de loop no ES6:
 
 ```javascript
-for(var i in thing) {
+for(var i in meuArray) {
 }
 ```
 
-After the loop, `i` is still available! 
+Mesmo após o loop ser executado, a variável `i` ainda está disponível!
 
 ## Let
 
-With `let`, that is no longer an issue. Let creates a variable
-that is only available in the nearest block. 
+Com o `let`, esse "vazamento" de valor não é mais um problema. O `let` cria uma variável que só é disponível no *bloco* mas próximo. Não na função mais próxima. 
 
-This is perfect for loops and closures:
+Isso é maravilhoso em loops e closures, perceba:
 
 ```javascript
 for(let i in thing) {
- // i is available
+ // i está disponível
 }
 
-// i is NOT available
+// i NÃO está disponível
 ```
 
-In general, use `let` whenever possible.
+No geral, sempre use `let`, ao menos que você tenha um motivo muito bom pra usar `var`.
