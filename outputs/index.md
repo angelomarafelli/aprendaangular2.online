@@ -2,16 +2,16 @@
 layout: default
 title: Outputs
 edit_link: https://github.com/driftyco/learn-angular2/edit/gh-pages/outputs/index.md
-tweet: "Emit your own crazy events with Outputs in Angular 2"
+tweet: "Utilizando seus próprios eventos loucos usando Outputs no Angular 2"
 ---
 
 
 _Updated April 14, 2016_
 
 
-If you want to bind to particular event, you can use the new [Event syntax](/events) in Angular 2, but what if you need your own custom event?
+Se você deseja vincular um determinado evento, você pode usar o novo [Event sintax](/events) no angular 2, mas e se você precisar de um evento personalizado?
 
-To create a custom event, we can use the new `@Output` decorator. Take the following component:
+Para criar um evento personalizado (custom event), podemos usar o novo decorator `@Output`. Vamos pegar o exemplo do seguinte componente:
 
 ```javascript
 import { Component } from '@angular/core';
@@ -25,7 +25,7 @@ export class PersonInfo {
 }
 ```
 
-Let's import `Output` and `EventEmitter` and create our new event
+Basta importarmos o `Output` e` EventEmitter` do core e criarmos o nosso novo evento
 
 ```javascript
 import { Component, Output, EventEmitter } from 'angular2/core';
@@ -45,7 +45,7 @@ export class UserProfile {
 }
 ```
 
-Now when we used this component elsewhere in our app, we can bind the event that `person-info` emits
+Agora quando utilizamos este componente em outros lugares em nossa aplicação, podemos vincular o evento que emite `person-info`
 
 ```html
   <user-profile (userUpdated)="userUpdated($event)"></user-profile>
