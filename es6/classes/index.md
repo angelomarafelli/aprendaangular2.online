@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ES6/7 Classes
+title: Classes no ES6/7 
 edit_link: https://github.com/joselitojunior1/aprenda-angular2/edit/gh-pages/es6/classes/index.md
 tweet: "Como escrever classes do ES6/7"
 ---
