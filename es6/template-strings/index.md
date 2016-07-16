@@ -1,8 +1,8 @@
 ---
 layout: default
-title: ES6 Template Strings
+title: Template Strings no ES6
 edit_link: https://github.com/joselitojunior1/aprenda-angular2/edit/gh-pages/es6/template-strings/index.md
-tweet: "Usando ES6 Template Strings"
+tweet: "Usando Template Strings no ES6"
 ---
 
 ES6 adiciona a possiblidade de escrever uma string em várias linhas, sem tem que fazer aquele concatenamento terrível. Tudo que a gente precisa é usar backticks (o acento grave) no início e no fim da string:
