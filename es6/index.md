@@ -1,50 +1,29 @@
 ---
 layout: default
-title: ES6/TypeScript/AtScript/Babel...wat?
-edit_link: https://github.com/driftyco/learn-angular2/edit/gh-pages/es6/index.md
-tweet: "ES6/TypeScript - What is all this?"
+title: ES6/7/TypeScript/AtScript/Babel... Que danado é isso?
+edit_link: https://github.com/joselitojunior1/aprenda-angular2/edit/gh-pages/es6/index.md
+tweet: "ES6/7/TypeScript... Quem?"
 ---
 
-One of the most difficult things for developers new to modern JavaScript
-is how to actually write modern JavaScript.
+Uma das coisas mais difíceis para desenvolvedores JavaScript que trabalham com as versões mais novas da linguagem, é justamente escrever seu código diretamente nessas versões.
 
-There's ES5, ES6, then ES7, TypeScript, AtScript, Dart, Babel...the list goes on.
+ovimos falar de ES5, ES6, ES2015, agora ES7, TypeScript, AtScript, Babel... a lista é gigantesca.
 
-JavaScript is largely a standards-driven language. That means a [committee agrees](http://www.infoq.com/news/2015/06/ecmascript-2015-es6) on 
-what "JavaScript" is, at least the lowest common denominator of it, and browser vendors
-work to implement those features. Today (but not for long), ES5 is that version of JS that is
-most widely supported.
+O JavaScript em si é definido por padrões. Isso significa que um [comitê](http://www.infoq.com/news/2015/06/ecmascript-2015-es6) define em comum acordo, qual é o menor denominador comum do EcmaScript que todos os navegadores devem implementar. E esse conjunto de padrões escolhidos é o que chamamos de "JavaScript". Hoje em dia (mas não por muito tempo), a versão ES5 é a versão do JS mais comum e que oferece mais suporte por parte dos navegadores.
 
-However, committee-driven design is notoriously slow, so everyone from independent developers
-to browser vendors are eager to use and implement new JS features faster than the standards
-organization can approve them.
+Entretanto, essa "dependência" de um comitê é notoriamente lenta. Então, há um anseio de desenvolvedores - desde desenvolvedores indepentes até aqueles que trabalham nos navegadores - de utilizar as novas funcionalidades do JS mais rápido do que o próprio comitê aprova _(mesmo que ás vezes nem eles saibam por que estão fazendo isso)_.
 
-JavaScript as browsers understand it is a bit like the "assembly of the web," meaning that it
-can correctly run code that was implemented in a higher level language and "compiled" down
-to JS the browser understands.
+O JavaScript, para os navegadores, funciona como uma espécie de Assembly. Isso significa que você consegue executar um código que foi devidamente implementado numa linguagem de mais alto-nível e que foi "compilada" posteriormente pra JS, já que dessa maneira que o navegador consegue entender.
 
-That is exactly what CoffeeScript was, which was one of the first very successful higher-level JS languages. A developer
-would write CoffeeScript, and the compiler tool would generate plain JavaScript underneath.
+CoffeeScript fazia exatamente isso, e foi uma das primeias linguagens de alto-nível a ter sucesso que compilava para JS. Um desenvolvedor escrevia em CoffeeScrript e o compilador transformava aquilo em JavaScript puro, por baixo do capô.
 
-This is what we see today with ES6 and everything in between. Browsers don't yet implement
-natively a lot of ES6+ features, and developers want to innovate on what JavaScript is. This means
-they've gone to building these higher-level JS languages like AtScript, TypeScript, and tools like
-Babel that implement futuristic JavaScript features and compile down to ES5.
+Isso é o que nós vemos hoje em dia com o ES6/7. Os navegadores ainda não implementaram nativamente várias das funcionalidades do E6/7, e os desenvolvedores querem inovar além do que o JavaScript é atualmente. Para tal, foram criadas linguagens de mais alto nível como AtScript, TypeScript, e ferramentas como o Babel. Todas compilam o código de volta para ES5.
 
-Dart is an experimental language created several years ago by Google. We do not recommend using Dart as new JS features supersede it.
+Typescript é uma extensão do JS que foi desenvolvida pela Microsoft. Ela possui uma checagem de tipo extremamente poderosa e é orientada a objetos. O Angular 2 e o Ionic 2 usam TypeScript.
 
-AtScript was an experimental language created by Google to extend JS and Typescript with new
-features such as annotations and type introspection. It is now defunct.
+### Conclusão
 
-Typescript is Microsoft's extension of JS that comes with powerful type checking abilities and
-object oriented features. Both Angular 2 and Ionic 2 use TypeScript.
+Se você quer escrever puramente com ES6/7 hoje em dia, você pode usar o [Babel](https://babeljs.io/), intitulado como "o compilador para escrever a próxima geração do JavaScrpt". Se você pretende usar o Angular e o Ionic nos seus projetos, nós recomendamos o uso de TypeScript, que contém funcionalidades semelhantes ao Babel, além da sua checagem de tipos.
 
-ES6 is the next version of JavaScript that was just [recently approved](http://www.infoq.com/news/2015/06/ecmascript-2015-es6) that comes with a ton of new ways to write JS. ES7 is a future standard of JS that some are already implementing
-in these higher level languages.
-
-### Conclusion
-
-If you'd like to develop with "plain" ES6 and ES7, you can use [Babel](https://babeljs.io/), the "compiler for writing next generation JavaScript." If you'd like to use Ionic and Angular, we recommend TypeScript which will provide similar features as babel, with extra type checking if you choose to use it.
-
-If you're interested in type checking and new OO features, or want to contribute to Angular 2, check out [TypeScript](http://www.typescriptlang.org/).
+Se voc&e está interessado no TypeScript, visite o [site oficial](http://www.typescriptlang.org/).
 
