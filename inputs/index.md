@@ -2,19 +2,18 @@
 layout: default
 title: Inputs
 edit_link: https://github.com/driftyco/learn-angular2/edit/gh-pages/inputs/index.md
-tweet: "Learn input properties in Angular 2"
+tweet: "Entenda as propriedades de input no Angular 2"
 ---
-
 
 _Updated April 14, 2016_
 
-Components are the core of an Angular 2 app but most developers need to know how to pass data into components to dynamically configure them.
+Os componentes são o núcleo de um 2 app angular, mas a maioria dos desenvolvedores precisam saber como passar dados para os componentes para configurá-los de forma dinâmica.
 
 #### `@Input`
 
-To define an input for a component, we use the `@Input` decorator.
+Para definir um input de um componente, usamos o decorator `@Input`.
 
-For example, our `<user-profile>` component needs a `user` argument to render information about that user:
+Por exemplo, o nosso componente `<user-profile>` precisa do argumento `user` para renderizar as informações:
 
 ```html
 {% raw %}
@@ -22,7 +21,7 @@ For example, our `<user-profile>` component needs a `user` argument to render in
 {% endraw %}
 ```
 
-So, we add an `@Input` binding to `user`:
+Então, adicionamos o binding usando o `@Input` para o atributo `user`:
 
 ```javascript
 {% raw %}
