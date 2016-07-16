@@ -1,11 +1,11 @@
 ---
 layout: default
-title: ES6 Classes
-edit_link: https://github.com/driftyco/learn-angular2/edit/gh-pages/es6/classes/index.md
-tweet: "How to write ES6 Classes"
+title: ES6/7 Classes
+edit_link: https://github.com/joselitojunior1/aprenda-angular2/edit/gh-pages/es6/classes/index.md
+tweet: "Como escrever classes do ES6/7"
 ---
 
-ES6 Classes will feel very natural for those with experience writing Object-Oriented code in languages like Java and C#. Here's a simple example:
+Para quem já trabalhou com alguma linguagem orientada a objetos, as classes do ES6 vão fazer você se sentir em casa. Aqui está um exemplo simples:
 
 ```javascript
 class Beer {
@@ -13,39 +13,41 @@ class Beer {
   }
 }
 
-class SpottedCow extends Beer {
+class Heineken extends Beer {
   constructor() {
     super();
     this.deliciousness = 50;
-    this.locations = 'Wisconsin';
-    this.name = 'Spotted Cow';
+    this.locations = 'Amsterdã';
+    this.name = 'Heineken';
   }
   sell(location) {
-    if(location !== 'Wisconsin') {
-      throw new JailTimeError();
+    if(location != 'Vaticano') {
+      return true
     }
+    
+    return false;
   }
 }
 
-class MillerLite extends Beer {
+class Itaipava extends Beer {
   constructor() {
     super();
-    this.deliciousness = 10;
-    this.locations = 'anywhere';
-    this.name = 'Miller Lite';
+    this.deliciousness = 1;
+    this.locations = 'Petrópolis';
+    this.name = 'Itaipava';
   }
   sell(location) {
-    if(Location.hasSportsTeam(location)) {
+    if(location == "Brasil") {
       return true;
     }
-    // Enh, we'll sell anywhere
-    return true;
+    
+    return false;
   }
 }
 
-let beer = new SpottedCow();
+let cerva = new Heineken();
 
-console.log('I am drinking a delicious ', beer.name, ' that is available ', beer.locations);
+console.log('Tô bebendo uma ', beer.name, ' topzeira!');
 
-beer.sell();
+cerva.sell();
 ```
