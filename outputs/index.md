@@ -16,7 +16,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'user-profile',
-  template: '<div>Hi, my name is {{user.name}}</div>'
+  template: '<div>Olá, meu nome é {{user.name}}</div>'
 })
 export class PersonInfo {
   constructor() {}
@@ -30,13 +30,13 @@ import { Component, Output, EventEmitter } from 'angular2/core';
 
 @Component({
   selector: 'user-profile',
-  template: '<div>Hi, my name is {{user.name}}</div>'
+  template: '<div>Olá, meu nome é {{user.name}}</div>'
 })
 export class UserProfile {
   @Output() userUpdated = new EventEmitter();
 
   constructor() {
-    // Update user
+    // Atualiza usuário
     // ...
     this.userUpdated.emit(this.user);
   }
@@ -54,7 +54,7 @@ export class SettingsPage {
   constructor(){}
 
   userUpdated(user) {
-    // Handle the event
+    // método que manipula o evento
   }
 }
 ```
