@@ -20,9 +20,9 @@ Vamos começar com um simples formulário de login em HTML com Angular 2:
 
 ```html
 <form [ngFormModel]="loginForm" (submit)="doLogin($event)">
-    <input ngControl="email" type="email" placeholder="Your email">
-    <input ngControl="password" type="password" placeholder="Your password">
-  <button type="submit">Log in</button>
+    <input ngControl="email" type="email" placeholder="Seu email">
+    <input ngControl="password" type="password" placeholder="Sua senha">
+  <button type="submit">Acessar</button>
 </form>
 ```
 
@@ -88,7 +88,7 @@ Na prática, usaremos o `FormBuilder` para criar formulários de forma rápida.
 Você vai notar a falta do `ngModel` no formulário. Em vez disso, temos os decoradotors do `ngControl` que mapeiam os inputs para os nossos objetos que controlam o formulário:
 
 ```html
-  <input ngControl="email" type="email" placeholder="Your email">
+  <input ngControl="email" type="email" placeholder="Seu email">
 ```
 
 Este "binds" no input do campo e-mail para a instância do nosso atributo `email` do formulário.
@@ -105,7 +105,7 @@ function containsMagicWord(c: Control) {
     }
   }
 
-  // Null means valid, believe it or not
+  // `null` significa valido
   return null
 }
 
@@ -121,11 +121,11 @@ Podemos facilmente pegar o valor de um objeto Javascript do nosso formulário, o
 
 ```javascript
 doLogin(event) {
-  // Show the value of the form
+  // Mostra o valor do formulário
   var formData = this.loginForm.value;
   // { email: 'blah@blah.net', password: 'imnottelling1' }
 
-  // Or, grab the value of one control:
+  // ou pega o valor de um form control:
   var email = this.loginForm.controls.email.value
 
   event.preventDefault();
