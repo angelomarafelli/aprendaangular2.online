@@ -51,6 +51,7 @@ h3 {
   color: #ccc;
   font-weight: bold;
   text-transform: lowercase;
+  font-family: monospace;
 }
 
 #footer a {
