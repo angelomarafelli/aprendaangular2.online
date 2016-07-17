@@ -25,7 +25,7 @@ Por exemplo, o nosso componente `<user-profile>` pode ter um método chamado `se
 export class UserProfile {
   constructor() {}
   sendData(){
-    //send data
+    //enviando informações
   }
 }
 {% endraw %}
@@ -43,9 +43,9 @@ import { UserProfile } from '../user-profile';
   directives: [UserProfile]
 })
 export class MasterPage {
-  // we pass the Component we want to get
-  // assign to a public property on our class
-  // give it the type for our component
+  // Passamos o componente queremos pegar
+  // atribuído a uma propriedade pública em nossa classe
+  // e passamos o tipo para nosso componente
   @ViewChild(UserProfile) userProfile: UserProfile
 
   constructor() { }
