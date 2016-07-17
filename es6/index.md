@@ -9,7 +9,7 @@ _Atualizado em 16 de Julho de 2016_
 
 Uma das coisas mais difíceis para desenvolvedores JavaScript que trabalham com as versões mais novas da linguagem, é justamente escrever seu código diretamente nessas versões.
 
-ovimos falar de ES5, ES6, ES2015, agora ES7, TypeScript, AtScript, Babel... a lista é gigantesca.
+Ouvimos falar de ES5, ES6, ES2015, agora ES7, TypeScript, AtScript, Babel... a lista é gigantesca.
 
 O JavaScript em si é definido por padrões. Isso significa que um [comitê](http://www.infoq.com/news/2015/06/ecmascript-2015-es6) define em comum acordo, qual é o menor denominador comum do EcmaScript que todos os navegadores devem implementar. E esse conjunto de padrões escolhidos é o que chamamos de "JavaScript". Hoje em dia (mas não por muito tempo), a versão ES5 é a versão do JS mais comum e que oferece mais suporte por parte dos navegadores.
 
