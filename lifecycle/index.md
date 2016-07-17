@@ -22,15 +22,15 @@ No arquivo JS principal da nossa aplicação, vamos colocar isso:
 import { bootstrap } from '@angular/platform-browser-dynamic';
 import { Component } from '@angular/core';
 
-// Annotation section
+// Anotações do componente
 @Component({
   selector: 'my-app',
-  template: '<h1>Hello {{ name }}</h1>'
+  template: '<h1>Olá {{ name }}</h1>'
 })
-// Component controller
+// Controller do componente
 class MyApp {
   constructor() {
-    this.name = 'Max';
+    this.name = 'Marcos';
   }
 }
 
@@ -53,12 +53,12 @@ Para fazer isso, nós podemos manipular o evento ciclo de vida utilizando o mét
 ```javascript
 import {Component, bootstrap} from 'angular2/angular2';
 
-// Annotation section
+// Anotações do componente
 @Component({
   selector: 'street-map',
   template: '<map-window></map-window><map-controls></map-controls>'
 })
-// Component controller
+// Controller do componente
 class StreetMap {
   constructor() {
     this.name = 'Max';
@@ -73,10 +73,10 @@ class StreetMap {
   }
 
   ngOnInit() {
-    // Properties are resolved and things like
-    // this.mapWindow and this.mapControls
-    // had a chance to resolve from the
-    // two child components <map-window> and <map-controls>
+    // Quando as propriedades são resolvidades
+    // os valores de this.mapWindow e this.mapControls
+    // também serão resolvidos para os componentes
+    // <map-window> e <map-controls>
   }
 }
 ```
@@ -87,45 +87,45 @@ Como `ngOnInit`, podemos utilizar e rastrear vários eventos através do ciclo d
 lista completa, consulte a [seção "Lifecyle Hooks" na documentação oficial do Angular 2](https://angular.io/docs/ts/latest/guide/lifecycle-hooks.html).
 
 ```javascript
-// Annotation section
+// Anotações do componente
 @Component({
   selector: 'street-map',
   template: '<map-window></map-window><map-controls></map-controls>',
 })
-// Component controller
+// Controller do componente
 class StreetMap {
   ngOnInit() {
-    // Properties are resolved and things like
-    // this.mapWindow and this.mapControls
-    // had a chance to resolve from the
-    // two child components <map-window> and <map-controls>
+    // Quando as propriedades são resolvidades
+    // os valores de this.mapWindow e this.mapControls
+    // também serão resolvidos para os componentes
+    // <map-window> e <map-controls>
   }
   ngOnDestroy() {
-    // Speak now or forever hold your peace
+    // Evento é invocado quando o componente é destruído
   }
   ngDoCheck() {
-    // Custom change detection
+    // Detecção de mudanças customizável
   }
   ngOnChanges(changes) {
-    // Called right after our bindings have been checked but only
-    // if one of our bindings has changed.
+    // Chamado após nosso binding ser checado, validando
+    // se um dos bindings foi alterado
     //
-    // changes is an object of the format:
+    // o parâmetro `changes` é um objeto no formato:
     // {
     //   'prop': PropertyUpdate
     // }
   }
   ngAfterContentInit() {
-    // Component content has been initialized
+    // Conteúdo do componente foi inicializado
   }
   ngAfterContentChecked() {
-    // Component content has been Checked
+    // Conteúdo do componente foi checado
   }
   ngAfterViewInit() {
-    // Component views are initialized
+    // View do componente foi inicializada
   }
   ngAfterViewChecked() {
-    // Component views have been checked
+    // View do componente foi checada/validada
   }
 }
 ```
