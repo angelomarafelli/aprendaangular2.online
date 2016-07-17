@@ -22,17 +22,17 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'my-component',
-  template: '<div>Hello my name is {{name}}. <button (click)="sayMyName()">Say my name</button></div>'
+  template: '<div>Olá! Meu nome é {{name}}. <button (click)="sayMyName()">Diga meu nome</button></div>'
 })
 export class MyComponent {
   constructor() {
-    this.name = 'Max'
+    this.name = 'Michael'
   }
   sayMyName() {
-    console.log('My name is', this.name)
+    console.log('Meu nome é', this.name)
   }
 }
 {% endraw %}
 ```
 
-Quando usamos a tag `<my-component></my-componente>` em nosso HTML, este componente será criado, o nosso construtor chamado e renderizado no DOM.
+Quando usamos a tag `<my-component></my-component>` em nosso HTML, este componente será criado, o nosso construtor chamado e renderizado no DOM.
