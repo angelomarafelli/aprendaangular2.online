@@ -20,7 +20,7 @@ class MyComponent {
 E este template:
 
 ```html
-<button (click)="clicked()">Click</button>
+<button (click)="clicked()">Clique aqui</button>
 ```
 
 Nosso método `clicked()` vai ser chamado quando o botão for clicado.
