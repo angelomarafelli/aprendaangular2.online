@@ -1,34 +1,30 @@
 ---
 layout: default
-title: Learn Angular 2
+title: "Porquê Angular 2"
 ---
 
 ![Angular2](https://angular.io/resources/images/logos/standard/shield-large.png)
 
-Angular 2 is the next version of Google's massively popular MV* framework for building complex
-applications in the browser (and beyond).
+Angular 2 é a próxima versão de um dos frameworks MV* mais populares da atualidade do Google para a construção de webApps (e muito mais que só web).
 
-When Angular 2 was announced in October 2014 at the ngEurope conference, the ngCommunity was up in arms: what did this mean for their favorite
-framework they invested so much time into learning and building real things with? A lot of Angular developers
-were worried that Angular 2 would spell the end for Angular.
+Quando Angular 2 foi anunciado em outubro de 2014 na conferência ngEurope, a comunidade Angular estava em pé de guerra: o que isso realmente significa para o framework que eles investiram tanto tempo para aprender e construir suas aplicações? Vários desenvolvedores estavam preocupados que Angular 2 significaria "o fim para Angular".
 
-Few teams are as invested in Angular as the [Ionic SDK](http://ionicframework.com/) team is. We've spent
-years building our entire business on Angular. When Angular 2 was announced, we were also concerned that the next version of our favorite framework would negatively impact us.
+Poucas equipes encorajam tanto o Angular como a equipe [Ionic SDK](http://ionicframework.com/). Eles passaram
+anos construindo todo o negócio baseado no Angular. Quando Angular 2 foi anunciado também houve esta preocupação e que a próxima versão do nosso framework favorito teria um impacto negativo.
 
-What we found when we started building with Angular 2, though, was something beyond our wildest dreams: a faster, more powerful, cleaner, and easier to use tool than we had with Angular 1. We found a tool that embraced future web standards and brought ES6 to more developers around the world.
+O que aconteceu quando eles começaram a construir apps com Angular 2, porém, foi algo além do esperado: uma ferramenta mais rápida, mais poderoso, com um código mais limpo e claro e mais fácil de usar (muito mais que com Angular 1). Então eles abraçaram o framework que utiliza padrões da "web do futuro" e trouxe ES6 para mais desenvolvedores ao redor do mundo.
 
-In many ways, Angular 2 still felt like Angular, it was just based on new JavaScript standards and using best-practices developed in the years after the first Angular release. "Angular" had become a design pattern with multiple implementations.
+De muitas maneiras, Angular 2 ainda é o Angular, ele só foi baseada em novos padrões JavaScript e usando as melhores práticas desenvolvidas nos anos após o primeiro lançamento do AngularJS. "Angular" tornou-se um design pattern com várias implementações.
 
-We realized that Angular 2 would make it *easier* to use Ionic, not harder. That it would give us performance gains
-we desperately needed to push forward our goal of making the web win on mobile. That it would make it easier to write clean, testable code that would run on more devices and platforms. That it would help us empower more web developers to build great mobile apps.
+Percebemos que com Angular 2 usar o Ionic seria algo *mais fácil*, não mais complicado. Que daria ganhos de desempenho
+necessários para impulsionar o objetivo de fazer a plataforma web ser um sucesso também no mobile. Que tornaria mais fácil para escrever um código limpo, testável e que seria executado em mais dispositivos e plataformas. Que iria ajudar a capacitar mais desenvolvedores a construir grandes aplicativos móveis.
 
-We knew we had to work to make sure the ngCommunity transitioned from Angular 1 to Angular 2 as quickly and cleanly as possible, so we started this site to help with the transition.
+Então, pensando em garantir que a transição entre o Angular 1 para o Angular 2 fosse algo rápido, claro e indolor veio a idéia deste site para ajudar na transição.
 
-As Angular 2 moves from beta to RC and beyond, we will be updating this site with new tutorials and examples. If you ever have a question or feel there is something we could expand, [tweet at us](http://twitter.com/ionicframework) or [file an issue](https://github.com/driftyco/learn-angular2).
+Com o Angular 2 saindo de beta para RC e então a versão final, estaremos atualizando este site com novos tutoriais e exemplos.
 
-We hope you find Angular 2 as inspiring as we have, and we hope this guide helps you get there as quickly as possible.
+Esperamos que você ache Angular 2 tão inspirador e que este guia o ajude a chegar lá a criar apps incríveis!
 
 Cheers!<br>
-*[Max Lynch](http://twitter.com/maxlynch)*<br>
-*Co-creator of Ionic*<br>
-*May 2015*
+*[Will Mendes](http://twitter.com/willmendesneto) e [Joselito](http://twitter.com/joselitojunior1)*<br>
+*Julho de 2015*
