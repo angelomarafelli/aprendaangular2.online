@@ -17,7 +17,9 @@
         </div>
         <div class="nine columns">
           <h3>{{page.title}}</h3>
-          <div class="addthis_sharing_toolbox"></div>
+          {% if page.tweet %}
+            <div class="addthis_sharing_toolbox"></div>
+          {% endif %}
             
           {{ content }}
         </div>
