@@ -5,9 +5,7 @@ edit_link: https://github.com/driftyco/learn-angular2/edit/gh-pages/outputs/inde
 tweet: "Utilizando seus próprios eventos loucos usando Outputs no Angular 2"
 ---
 
-
-_Updated April 14, 2016_
-
+_Atualizado em 16 de Julho de 2016_
 
 Se você deseja vincular um determinado evento, você pode usar o novo [Event sintax](/events) no angular 2, mas e se você precisar de um evento personalizado?
 

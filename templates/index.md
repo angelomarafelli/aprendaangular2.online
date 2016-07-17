@@ -5,6 +5,8 @@ edit_link: https://github.com/driftyco/learn-angular2/edit/gh-pages/templates/in
 tweet: "Tudo sobre Templates em aplicações Angular 2"
 ---
 
+_Atualizado em 16 de Julho de 2016_
+
 Os modelos de template são muito semelhantes aos utilizados no Angular 1, apesar de existirem algumas mudanças sintáticas que tornam mais claro o que está acontecendo.
 
 ## Exemplo de template

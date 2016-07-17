@@ -5,6 +5,8 @@ edit_link: https://github.com/joselitojunior1/aprenda-angular2/edit/gh-pages/es6
 tweet: "ES6/7/TypeScript... Quem?"
 ---
 
+_Atualizado em 16 de Julho de 2016_
+
 Uma das coisas mais difíceis para desenvolvedores JavaScript que trabalham com as versões mais novas da linguagem, é justamente escrever seu código diretamente nessas versões.
 
 ovimos falar de ES5, ES6, ES2015, agora ES7, TypeScript, AtScript, Babel... a lista é gigantesca.
@@ -26,4 +28,3 @@ Typescript é uma extensão do JS que foi desenvolvida pela Microsoft. Ela possu
 Se você quer escrever puramente com ES6/7 hoje em dia, você pode usar o [Babel](https://babeljs.io/), intitulado como "o compilador para escrever a próxima geração do JavaScrpt". Se você pretende usar o Angular e o Ionic nos seus projetos, nós recomendamos o uso de TypeScript, que contém funcionalidades semelhantes ao Babel, além da sua checagem de tipos.
 
 Se voc&e está interessado no TypeScript, visite o [site oficial](http://www.typescriptlang.org/).
-

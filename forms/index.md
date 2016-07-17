@@ -5,6 +5,8 @@ edit_link: https://github.com/driftyco/learn-angular2/edit/gh-pages/forms/index.
 tweet: "Criando poderosos formulários com Angular 2"
 ---
 
+_Atualizado em 16 de Julho de 2016_
+
 Os formulários são fundamentais em qualquer aplicativo. No Angular 2, formulários mudaram um pouco desde a versão 1 do framework.
 
 Onde costumávamos usar `ngModel` e mapear para o nosso modelo de dados internamente, no Angular 2 construímos formulários e controllers de maneira mais explícita.

@@ -1,9 +1,11 @@
 ---
 layout: default
-title: Classes no ES6/7 
+title: Classes no ES6/7
 edit_link: https://github.com/joselitojunior1/aprenda-angular2/edit/gh-pages/es6/classes/index.md
 tweet: "Como escrever classes do ES6/7"
 ---
+
+_Atualizado em 16 de Julho de 2016_
 
 Para quem já trabalhou com alguma linguagem orientada a objetos, as classes do ES6 vão fazer você se sentir em casa. Aqui está um exemplo simples:
 
@@ -24,7 +26,7 @@ class Heineken extends Beer {
     if(location != 'Vaticano') {
       return true
     }
-    
+
     return false;
   }
 }
@@ -40,7 +42,7 @@ class Itaipava extends Beer {
     if(location == "Brasil") {
       return true;
     }
-    
+
     return false;
   }
 }

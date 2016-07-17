@@ -5,6 +5,8 @@ edit_link: https://github.com/driftyco/learn-angular2/edit/gh-pages/events/index
 tweet: "Entendendo eventos no Angular 2"
 ---
 
+_Atualizado em 16 de Julho de 2016_
+
 Eventos no Angular 2 usam a notação de parênteses nos modelos e métodos de gatilho na classe de um componente. Por exemplo, suponha que temos esta classe de componente:
 
 ```javascript

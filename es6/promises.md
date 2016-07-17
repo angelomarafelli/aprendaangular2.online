@@ -5,6 +5,8 @@ edit_link: https://github.com/driftyco/learn-angular2/edit/gh-pages/es6/promises
 tweet: "Pomises no Angular 2"
 ---
 
+_Atualizado em 16 de Julho de 2016_
+
 Promises permite escrever código assincrono de maneira mais fácil, comparanda por exemplo ao o uso de callbacks. Muitas bibliotecas e Web APIs retornam promessas para operações assíncronas, como `fetch()`:
 
 ```javascript

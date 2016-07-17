@@ -5,7 +5,7 @@ edit_link: https://github.com/driftyco/learn-angular2/edit/gh-pages/lifecycle/in
 tweet: "Lifecycle de uma aplicação Angular 2"
 ---
 
-_Updated November 16, 2015_
+_Atualizado em 16 de Julho de 2016_
 
 Aplicações Angular passam por um processo várias etapas desde o seu bootstrap e ciclo de vida, podendo
 responder a vários eventos como o quando o aplicativo é iniciado, executado e quando se cria/destrói componentes.

@@ -5,6 +5,8 @@ edit_link: https://github.com/joselitojunior1/aprenda-angular2/edit/gh-pages/es6
 tweet: "Entendendo as variáveis no ES6/7"
 ---
 
+_Atualizado em 16 de Julho de 2016_
+
 A partir do ES6, nós temos um novo jeito de inicializar variáveis, diga olá ao: `let`
 
 ## Var
@@ -24,7 +26,7 @@ Mesmo após o loop ser executado, a variável `i` ainda está disponível!
 
 ## Let
 
-Com o `let`, esse "vazamento" de valor não é mais um problema. O `let` cria uma variável que só é disponível no *bloco* mas próximo. Não na função mais próxima. 
+Com o `let`, esse "vazamento" de valor não é mais um problema. O `let` cria uma variável que só é disponível no *bloco* mas próximo. Não na função mais próxima.
 
 Isso é maravilhoso em loops e closures, perceba:
 

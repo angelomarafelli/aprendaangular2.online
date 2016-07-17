@@ -5,7 +5,7 @@ edit_link: https://github.com/driftyco/learn-angular2/edit/gh-pages/inputs/index
 tweet: "Entenda as propriedades de input no Angular 2"
 ---
 
-_Updated April 14, 2016_
+_Atualizado em 16 de Julho de 2016_
 
 Os componentes são o núcleo de um 2 app angular, mas a maioria dos desenvolvedores precisam saber como passar dados para os componentes para configurá-los de forma dinâmica.
 

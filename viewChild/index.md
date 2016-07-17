@@ -5,8 +5,7 @@ edit_link: https://github.com/driftyco/learn-angular2/edit/gh-pages/viewChild/in
 tweet: "Acesso entre componentes no Angular 2"
 ---
 
-
-_Updated April 28, 2016_
+_Atualizado em 16 de Julho de 2016_
 
 Como todos os componentes em Angular 2 possuem classes, você pode precisar chamar métodos destas classes. Isto requer acesso ao componente.
 

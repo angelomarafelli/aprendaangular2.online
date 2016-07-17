@@ -5,7 +5,7 @@ edit_link: https://github.com/driftyco/learn-angular2/edit/gh-pages/components/i
 tweet: "Como utilizar componentes usando Angular 2"
 ---
 
-_Updated November 16, 2015_
+_Atualizado em 16 de Julho de 2016_
 
 No Angular 2, Componentes are a principal maneira de criar e espeficicar elementos e lógica na página.
 

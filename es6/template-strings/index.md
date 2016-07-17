@@ -5,6 +5,8 @@ edit_link: https://github.com/joselitojunior1/aprenda-angular2/edit/gh-pages/es6
 tweet: "Usando Template Strings no ES6"
 ---
 
+_Atualizado em 16 de Julho de 2016_
+
 ES6 adiciona a possiblidade de escrever uma string em várias linhas, sem tem que fazer aquele concatenamento terrível. Tudo que a gente precisa é usar backticks (o acento grave) no início e no fim da string:
 
 ```html
@@ -13,7 +15,7 @@ let template = `
     <h2>Malandramente</h2>
     <h3>Mc Nandinho (Part. Mc Nego Bam)</h3>
     <p>Malandramente</p>
-  
+
     <p>
       A menina inocente<br>
       Se envolveu com a gente<br>
