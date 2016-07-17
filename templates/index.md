@@ -16,7 +16,7 @@ Vamos começar com um template simples que renderiza o valor dos atributos `name
 ```html
 {% raw %}
 <div>
-  Hello my name is {{name}} and I like {{thing}} quite a lot.
+  Olá! Meu nome é {{name}} e eu gosto muito de {{thing}}.
 </div>
 {% endraw %}
 ```
@@ -27,7 +27,7 @@ Para renderizar um valor, we can usar a sintaxe de `double-curly`, já utilizada
 
 ```html
 {% raw %}
-My name is {{name}}
+Meu nome é {{name}}
 {% endraw %}
 ```
 
