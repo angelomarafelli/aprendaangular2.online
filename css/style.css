@@ -73,3 +73,7 @@ h1 code, h2 code, h3 code, h4 code, h5 code{
   display: block;
   margin: 8px 0;
 }
+
+.addthis_sharing_toolbox {
+  min-height: 29px;
+}
