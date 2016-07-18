@@ -10,6 +10,16 @@
     {{ page.title }} &middot; Aprenda Angular 2
   </title>
 
+  {% if page.title %}
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    <meta property="og:description" content="{{page.tweet }}" />
+    <meta property="article:author" content="{{ site.author }}" />
+    <meta property="og:site_name" content="{{ page.title }} &middot; Aprenda Angular 2" />
+    <meta property="og:image" content="https://angular.io/resources/images/logos/standard/shield-large.png" />
+  {% endif %}
+
   <!-- CSS -->
   <link rel="stylesheet" href="/css/normalize.css">
   <link rel="stylesheet" href="/css/skeleton.css">
