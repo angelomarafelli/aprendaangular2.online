@@ -12,15 +12,9 @@ ES6 adiciona a possiblidade de escrever uma string em várias linhas, sem tem qu
 ```html
 let template = `
   <div>
-    <h2>Malandramente</h2>
-    <h3>Mc Nandinho (Part. Mc Nego Bam)</h3>
-    <p>Malandramente</p>
-
-    <p>
-      A menina inocente<br>
-      Se envolveu com a gente<br>
-      Só pra poder curtir
-    </p>
+    <h2>Template</h2>
+    <p>Este é um template de exemplo</p>
+    <p>Viu como é bem mais simples?</p>
   </div>
 `;
 ```
