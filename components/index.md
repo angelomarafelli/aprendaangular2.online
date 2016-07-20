@@ -7,7 +7,7 @@ tweet: "Como utilizar componentes usando Angular 2"
 
 _Atualizado em 16 de Julho de 2016_
 
-No Angular 2, Componentes são a principal maneira de criar e espeficicar elementos e lógica na página.
+No Angular 2, Componentes são a principal maneira de criar e especificar elementos e lógica na página.
 
 usando Angular 1, nós conseguimos isso através de directivas, controllers e $scope. No angular 2, todos esses conceitos
 são combinados em componentes.
