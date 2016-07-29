@@ -7,7 +7,7 @@ tweet: "Arrow Functions ES6/TypeScript"
 
 _Atualizado em 16 de Julho de 2016_
 
-Arrow functions permitem um jeito fácil de criar funções anonimas, e também de fazer `bind` no context atual. Veja o exemplo a seguir:
+Arrow functions permitem um jeito fácil de criar funções anônimas, e também de fazer `bind` no contexto atual. Veja o exemplo a seguir:
 
 ```javascript
 class Peessoa {
