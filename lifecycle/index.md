@@ -12,7 +12,7 @@ responder a vários eventos como o quando o aplicativo é iniciado, executado e 
 
 ## Bootstrap
 
-O Angulares 2 (atualmente) precisa ser inicializado usando o componente de raiz para o aplicativo.
+O Angular 2 (atualmente) precisa ser inicializado usando o componente de raiz para o aplicativo.
 
 No arquivo JS principal da nossa aplicação, vamos colocar isso:
 
@@ -40,7 +40,6 @@ bootstrap(MyApp)
 
 O componente `my-app` inicializa a nossa aplicação em um nível configurável, e seu modelo
 é o lugar onde todos os nossos componentes são criados.
-nt chain gets created.
 
 ## Inicializando o nosso Componente
 
