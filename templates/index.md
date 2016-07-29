@@ -61,11 +61,11 @@ O valor do atributo `this.myName` do seu componente está sincronizado com o val
 
 ## `*`: O asterisco
 
-`*` indica que esta directiva gerencia este componente como um template e tratará a sua renderização. Por exemplo, `ngFor` utilizado em nosso `<my-componente>` e renderiza o valor do loop de `item` em `itens`,
-mas nunca retorna o nossa inicial `<my-componente>` uma vez que é um template:
+`*` indica que esta directiva gerencia este componente como um template e tratará a sua renderização. Por exemplo, `ngFor` utilizado em nosso `<my-component>` e renderiza o valor do loop de `item` em `itens`,
+mas nunca retorna o nossa inicial `<my-component>` uma vez que é um template:
 
 ```html
-<my-component *ngFor="#item of items">
+<my-component *ngFor="#item of itens">
 </my-component>
 ```
 
