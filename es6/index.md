@@ -27,4 +27,4 @@ Typescript é uma extensão do JS que foi desenvolvida pela Microsoft. Ela possu
 
 Se você quer escrever puramente com ES6/7 hoje em dia, você pode usar o [Babel](https://babeljs.io/), intitulado como "o compilador para escrever a próxima geração do JavaScrpt". Se você pretende usar o Angular e o Ionic nos seus projetos, nós recomendamos o uso de TypeScript, que contém funcionalidades semelhantes ao Babel, além da sua checagem de tipos.
 
-Se voc&e está interessado no TypeScript, visite o [site oficial](http://www.typescriptlang.org/).
+Se você está interessado no TypeScript, visite o [site oficial](http://www.typescriptlang.org/).
