@@ -7,7 +7,7 @@ tweet: "Pomises no Angular 2"
 
 _Atualizado em 16 de Julho de 2016_
 
-Promises permite escrever código assincrono de maneira mais fácil, comparanda por exemplo ao o uso de callbacks. Muitas bibliotecas e Web APIs retornam promessas para operações assíncronas, como `fetch()`:
+Promises permite escrever código assíncrono de maneira mais fácil, comparada por exemplo ao o uso de callbacks. Muitas bibliotecas e Web APIs retornam promessas para operações assíncronas, como `fetch()`:
 
 ```javascript
 loadUsers() {
@@ -21,7 +21,7 @@ loadUsers() {
 }
 ```
 
-Nós também podemos riar nossas próprias promessas usando o construtor `new Promise()`, porém isso deve ser evitado se você utiliza alguma biblioteca ou framework que já possui uma API como o `fetch()`:
+Nós também podemos criar nossas próprias promessas usando o construtor `new Promise()`, porém isso deve ser evitado se você utiliza alguma biblioteca ou framework que já possui uma API como o `fetch()`:
 
 ```javascript
 respostaDaVidaDoUniversoETudoMais() {
@@ -31,4 +31,4 @@ respostaDaVidaDoUniversoETudoMais() {
 }
 ```
 
-Promises parecem simples a um primeiro moemnto, mas são complexas e extremamente poderosas na prática. Se ligue para não vacilar e fazer [anti-patterns](http://www.datchley.name/promise-patterns-anti-patterns/) no seu código.
+Promises parecem simples a um primeiro momento, mas são complexas e extremamente poderosas na prática. Se ligue para não vacilar e fazer [anti-patterns](http://www.datchley.name/promise-patterns-anti-patterns/) no seu código.
