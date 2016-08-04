@@ -19,7 +19,7 @@ let template = `
 `;
 ```
 
-A gnete agora consegue até fazer interpolação de uma expressão, usando `${expression}`:
+A gente agora consegue até fazer interpolação de uma expressão, usando `${expression}`:
 
 ```html
 let x = 5;
