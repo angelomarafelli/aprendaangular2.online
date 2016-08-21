@@ -7,7 +7,7 @@ tweet: "Entenda as propriedades de input no Angular 2"
 
 _Atualizado em 16 de Julho de 2016_
 
-Os componentes são o núcleo de um 2 app angular, mas a maioria dos desenvolvedores precisam saber como passar dados para os componentes para configurá-los de forma dinâmica.
+Os componentes são o núcleo de um app em Angular 2, mas a maioria dos desenvolvedores precisam saber como passar dados para os componentes para configurá-los de forma dinâmica.
 
 #### `@Input`
 

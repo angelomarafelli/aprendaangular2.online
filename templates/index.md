@@ -23,7 +23,7 @@ Vamos começar com um template simples que renderiza o valor dos atributos `name
 
 ## `{}`: Renderizando valores
 
-Para renderizar um valor, we can usar a sintaxe de `double-curly`, já utilizada pelo Angular 1:
+Para renderizar um valor, podemos utilizar a sintaxe de `double-curly`, já utilizada pelo Angular 1:
 
 ```html
 {% raw %}
@@ -61,7 +61,7 @@ O valor do atributo `this.myName` do seu componente está sincronizado com o val
 
 ## `*`: O asterisco
 
-`*` indica que esta directiva gerencia este componente como um template e tratará a sua renderização. Por exemplo, `ngFor` utilizado em nosso `<my-component>` e renderiza o valor do loop de `item` em `itens`,
+`*` indica que esta directiva gerencia este componente como um template e tratará a sua renderização. Por exemplo, `ngFor` utilizado em nosso `<my-component>` renderiza o valor do loop de `item` em `itens`,
 mas nunca retorna o nossa inicial `<my-component>` uma vez que é um template:
 
 ```html
