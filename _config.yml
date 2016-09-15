@@ -2,6 +2,6 @@ markdown: kramdown
 kramdown:
   input: GFM
 highlighter: rouge
-angular2_version: 2.0.0-rc.1
+angular2_version: 2.0.0
 url: "http://aprendaangular2.online" # the base hostname & protocol for your site
 author: "Will Mendes & Joselito Júnior"
