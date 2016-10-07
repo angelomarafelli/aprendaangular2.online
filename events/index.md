@@ -31,7 +31,7 @@ Eventos no Angular 2 possuem o mesmo comportamento que eventos DOM, possuindo bu
 
 ## O object event
 
-Para capturar o evento, basta passar `$event` como atributo no método que está no template:mplate:
+Para capturar o evento, basta passar `$event` como atributo no método que está no template:
 
 ```html
 <button (click)="clicked($event)"></button>
